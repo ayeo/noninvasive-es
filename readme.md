@@ -1,7 +1,7 @@
 Noninvasive ES support
 ======================
 
-This is an attempt to build noninvasive ES/CQRS support librarty. By noninvasive I mean allowing domain to stay pure. Commands and Events either remains pure old PHP objects. There is also no any requirements regarding to your aggregate class.
+This is an attempt to build noninvasive ES/CQRS support librarty. By noninvasive I mean allowing domain to remain pure. Commands and Events either remains pure old PHP objects. There is also no any requirements regarding to your aggregate class.
 
 Events are applied (while loading) using dedicated and seperated class responsible only for applying events. It is used only while reconstituting aggregate from store. On regular aggregate usage it itself maintenance its state - see Domain namespace for exmaple use. 
 
