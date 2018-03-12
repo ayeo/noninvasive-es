@@ -1,7 +1,6 @@
 <?php
 namespace ES\Framework;
 
-
 abstract class EventApplier
 {
 	public function apply(\Serializable $event) {

@@ -16,11 +16,11 @@ class AggregateRootRepository extends Repository implements Domain\AggregateRoot
 
     public function save(Domain\AggregateRoot $aggregateRoot)
     {
-
+        //todo: do something with event store
     }
 
-    public function load(string $guid)
+    public function load(string $guid): Domain\AggregateRoot
     {
-
+        //todo: do something with event store
     }
 }
