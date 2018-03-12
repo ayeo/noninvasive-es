@@ -1,0 +1,11 @@
+{
+  "name": "ES",
+  "autoload": {
+    "psr-4": {
+      "ES\\": "src"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
